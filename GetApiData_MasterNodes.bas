@@ -51,7 +51,9 @@ Sub GetApiData_MasterNodes()
             Next data
           'change "API M MasterNodes" par le nom de votre feuille          
          Sheets("API M MasterNodes").Range(Cells(3, 1), Cells(json("data").Count + 1, 7)) = datas
-            
+            MsgBox "Succès"
+        Else
+            Msgbox "Error"
     End If
    End If
 End Sub
