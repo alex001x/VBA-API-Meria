@@ -29,3 +29,6 @@ In your Excel file, add a button from the developer menu: Dev → Insert → But
 From the information received, you can design a customized dashboard, apply graphs, indicate your reference or action points, analyze your average purchase by CurrencyCode, etc...
 
 All API codes can be written in the same module file, with different Sub names. Select the corresponding Subs for your buttons.
+
+Alexandre OLIVEIRA
+;)
