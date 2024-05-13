@@ -18,7 +18,7 @@ Sub GetApiData_MasterNodes()
     If httpRequest.Status = 200 Then
         Dim response As String
         response = httpRequest.responseText
-        MsgBox response
+        'MsgBox response
 
         ' Parser la réponse JSON
         Dim json As Object
