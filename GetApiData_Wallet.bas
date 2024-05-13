@@ -19,7 +19,7 @@ Sub GetApiData_Wallet()
         response = httpRequest.responseText
         'MsgBox response
 
-        ' Parser la réponse JSON , necessite d'ajouter le module JsonConverteur dans vos modules, disponible dans ce projet VBA-API-Meria/JsonConverteur
+        ' Parser la réponse JSON , necessite d'ajouter le module JsonConverteur dans vos modules, disponible dans ce projet VBA-API-Meria/JsonConverteur.bas
         Dim json As Object
         Set json = JsonConverter.ParseJson(response)   
         
